@@ -5,14 +5,14 @@ Install
 ============
 
 ```bash
-$ npm install qiniu
+$ npm install static2cloud
 ```
 
 Usage
 ============
 
 ```js
-//七牛云 对象存储 
+//上传到七牛云对象存储 
 const { QiniuUploader } = require("static2cloud");
 const oss = new QiniuUploader({
     region:QiniuUploader.HUADONG,
