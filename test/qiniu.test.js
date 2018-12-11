@@ -1,4 +1,4 @@
-const QiniuUploader = require("../src/qiniu");
+const { QiniuUploader } = require("../src/index.js");
 const { QINIU_ACCESS_KEY, QINIU_SECRET_KEY,QINIU_TEST_BUCKET } = process.env;
 
 const oss = new QiniuUploader({
