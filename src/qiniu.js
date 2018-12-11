@@ -96,7 +96,7 @@ class QiniuUploader extends Base {
 }
 
 QiniuUploader.HUADONG = qiniu.zone.Zone_z0;//华东
-QiniuUploader.HUABEi = qiniu.zone.Zone_z1;//华北
+QiniuUploader.HUABEI = qiniu.zone.Zone_z1;//华北
 QiniuUploader.HUANAN = qiniu.zone.Zone_z2;//华南
 QiniuUploader.BEIMEI = qiniu.zone.Zone_zna0;//北美
 

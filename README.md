@@ -15,10 +15,10 @@ Usage
 //上传到七牛云对象存储 
 const { QiniuUploader } = require("static2cloud");
 const oss = new QiniuUploader({
-    region:QiniuUploader.HUADONG,
-    accessKeyId:QINIU_ACCESS_KEY,
-    accessKeySecret:QINIU_SECRET_KEY,
-    bucket:QINIU_TEST_BUCKET
+    region:QiniuUploader.HUADONG,//[QiniuUploader.HUADONG,QiniuUploader.HUABEI,QiniuUploader.HUANAN,QiniuUploader.BEIMEI]
+    accessKeyId:"your accesskey",
+    accessKeySecret:"your secretkey",
+    bucket:"your bucket"
 });
 oss.initOptions({clear:true});//target是否清空文件夹
 oss.upload("./test/*.js","test")
