@@ -1,13 +1,23 @@
 {
-  "name": "web-upload",
+  "name": "static2cloud",
   "version": "1.0.0",
-  "description": "文本静态文件上传",
+  "keywords": [
+    "qiniu",
+    "oss",
+    "upload"
+  ],
+  "description": "web静态文件上传",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/xttup/staticUpload.git"
+  },
   "author": "youenough",
   "license": "MIT",
+  "homepage": "https://gitee.com/xttup/staticUpload",
   "dependencies": {
     "glob": "^7.1.3",
     "qiniu": "^7.2.1"
