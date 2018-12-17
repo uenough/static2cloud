@@ -9,11 +9,12 @@
   "description": "web静态文件上传",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha -t 10000 test/*.test.js"
+    "test": "nyc --reporter=html --reporter=text mocha -t 10000 test/*.test.js",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/xttup/staticUpload.git"
+    "url": "https://github.com/uenough/static2cloud.git"
   },
   "author": "youenough",
   "license": "MIT",
@@ -23,7 +24,9 @@
     "qiniu": "^7.2.1"
   },
   "devDependencies": {
+    "coveralls": "^3.0.2",
     "mocha": "^5.2.0",
+    "nyc": "^13.1.0",
     "should": "^13.2.3"
   }
 }
