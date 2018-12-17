@@ -6,8 +6,11 @@ node_js:
 sudo: false
 
 branches:
-  except:
-    - gh-pages
+  only:
+  - master
 
 script:
   - npm test
+
+after_success:
+  - npm run coverage

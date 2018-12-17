@@ -2,6 +2,11 @@ static2cloud
 ============
 
 [![Build Status](https://travis-ci.com/uenough/static2cloud.svg?branch=master)](https://travis-ci.com/uenough/static2cloud)
+[![](https://img.shields.io/azure-devops/coverage/github/uenough/static2cloud.svg)](https://coveralls.io/github/uenough/static2cloud)
+[![](https://img.shields.io/npm/v/static2cloud.svg)](https://www.npmjs.com/package/static2cloud)
+
+
+
 
 Install
 ============
