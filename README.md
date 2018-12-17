@@ -2,7 +2,7 @@ static2cloud
 ============
 
 [![Build Status](https://travis-ci.com/uenough/static2cloud.svg?branch=master)](https://travis-ci.com/uenough/static2cloud)
-[![](https://img.shields.io/azure-devops/coverage/github/uenough/static2cloud.svg)](https://coveralls.io/github/uenough/static2cloud)
+[![Coverage Status](https://coveralls.io/repos/github/uenough/static2cloud/badge.svg?branch=master)](https://coveralls.io/github/uenough/static2cloud?branch=master)
 [![](https://img.shields.io/npm/v/static2cloud.svg)](https://www.npmjs.com/package/static2cloud)
 
 
