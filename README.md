@@ -1,6 +1,8 @@
 static2cloud
 ============
 
+[![Build Status](https://travis-ci.com/uenough/static2cloud.svg?branch=master)](https://travis-ci.com/uenough/static2cloud)
+
 Install
 ============
 
